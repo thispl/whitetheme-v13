@@ -13,11 +13,16 @@
     scrollbar-width: thin;
     scrollbar-color: var(--scroll-color) var(--scroll-bg);
 }
+
+body{
+    color:green;
+}
 .awesomplete .input-with-feedback {
     border: 1px solid var(--border-color);
 }
 .form-control {
     border: 1px solid var(--border-color);
+    color:green;
 }
 .search-bar .awesomplete input {
     background-color: var(--bg-color)
@@ -27,10 +32,21 @@
 }
 .widget .widget-head .widget-title {
     font-size: var(--text-base);
+    color:green;
 }
+
+.link-content {
+    color:green;
+}
+
+.sidebar-item-label {
+    color:green;
+}
+
 .comment-box .comment-input-header, .form-dashboard-section .section-head, .form-section .section-head, .head-title {
     font-size: var(--text-base);
     font-weight: 600;
+    color:green;
 }
 .comment-box .comment-input-container .ql-editor {
     border: 1px solid var(--border-color);
@@ -41,7 +57,15 @@
 }
 .control-label {
     font-weight: 500;
+    color:green;
 }
+
+.page-card {
+    display: none !important;
+    background-color: green;
+}
+
+
 [data-theme="dark"] {
     --bg-color: var(--gray-900);
     --disabled-control-bg: var(--gray-900);
@@ -53,17 +77,17 @@
 }
 
 [data-theme="light"] {
-    --bg-color: #f2f5fa;
+    --bg-color: #ffedcc;
     --text-bold: 600;
-    --control-bg : #fff;
-    --control-bg-on-gray: #d4dcea;
-    --disabled-control-bg: #f2f5fa;
-    --heading-color: #333;
-    --border-color:#e3e8f1;
-    --avatar-frame-bg: #dde2ea;
+    --control-bg : #ffedcc;
+    --control-bg-on-gray: gray;
+    --disabled-control-bg: #ffedcc;
+    --heading-color: green;
+    --border-color:#f2f2f2;
+    --avatar-frame-bg: #ffedcc;
     --margin-lg: 15px;
-    --sidebar-select-color: #d4dcea;
-    --awesomplete-hover-bg: #d4dcea;
-    --scroll-bg: #eef1f5;
-    --scroll-color: #d9dfe6;
+    --sidebar-select-color: #d9d9d9;
+    --awesomplete-hover-bg: #ffedcc;
+    --scroll-bg: #ffedcc;
+    --scroll-color: gray;
 }
